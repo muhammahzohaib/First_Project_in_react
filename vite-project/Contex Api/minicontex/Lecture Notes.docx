@@ -1,0 +1,35 @@
+
+
+** contex Api ko samjana ka leya Props knowledge honi chayia ******
+
+ Why we need to Contex Api?
+ 
+We pass tittle in every component like rightside , topcom 
+
+Solutions:
+
+ 
+
+
+
+Contex Api -> Redux ( work in state Managemnt  ) More library exist but work in redux
+Redux -> Redux tool kit  
+ 
+What is State Management ?
+State Management in React means:
+?? Keeping track of your app��s changing data �� like user input, clicks, or fetched data �� and updating the UI when that data changes.
+
+?? Easy Example:
+Think of React state like a whiteboard.
+
+You write a number on the board (setState)
+
+If someone changes the number, everyone looking at the board sees the new number (React re-renders the UI)
+
+Code example:
+
+
+
+
+Step 1: Creata Contex folder ( inslide contex.js and contexprovider.jsx file )
+Step 2:  

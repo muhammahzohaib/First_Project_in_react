@@ -3,51 +3,45 @@ import { useState } from 'react'
 
 function App() {
   const [count, setCount] = useState("Black")
-
+  
   return (
-    <>
+    <div className='w-screen h-screen flex flex-col items-center justify-center p-30 gap-10' style={{ backgroundColor: count }}>
       
-      <h1>Background Changer App</h1>
-      <div className="card ">
-        <button  onClick={() => setCount(("White") )}>
-          White
+      <h1> Background Changer App </h1>
+      <div   className="card flex  gap-4">
+        <button style={{background:"olive", color:"white"}}   onClick={() => setCount(("olive") )}>
+          Olive
         </button>
-        <button onClick={() => setCount("Red")}>
+        <button style={{background:"red", color:"white"}} onClick={() => setCount("Red")}>
           Red
         </button>
-        <button onClick={() => setCount("Blue" )}>
+        <button style={{background:"blue", color:"white"}} onClick={() => setCount("Blue" )}>
           Blue
         </button>
-        <button onClick={() => setCount("Green")}> 
+        <button style={{background:"green", color:"white"}}  onClick={() => setCount("Green")}> 
           Green
         </button>
-        <button onClick={() => setCount("Yellow")}>
+        <button style={{background:"yellow", color:"black"}} onClick={() => setCount("Yellow")}>
           Yellow 
         </button>
-        <button onClick={() => setCount("Pink")}> 
+        <button style={{background:"pink", color:"black"}} onClick={() => setCount("Pink")}> 
           Pink 
         </button>
-        <button onClick={() => setCount("Purple")}>
+        <button style={{background:"purple", color:"white"}} onClick={() => setCount("Purple")}>
           Purpule 
         </button>
-        <button onClick={() => setCount("Orange")}> 
+        <button style={{background:"Orange", color:"white"}} onClick={() => setCount("Orange")}> 
 
           Orange         </button>
-        <button onClick={() => setCount("Gray")}> 
+        <button style={{background:"Gray", color:"white"}} onClick={() => setCount("Gray")}> 
           Gray 
         </button>
-        <button onClick={() => setCount("Sky" )}>
-          Sky 
-        </button>
-        
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+                
+
+              
+        </div>
+      
+    </div>
   )
 }
 
