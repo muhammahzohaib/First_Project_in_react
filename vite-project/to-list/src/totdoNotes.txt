@@ -1,0 +1,26 @@
+
+
+
+ WithOut use Of ... 
+{
+  id: 123,
+  todo: {
+    title: "Learn React",
+    completed: false
+  }
+
+  With Use of ...ToDo
+  {
+  id: 123,
+  title: "Learn React",
+  completed: false
+} 
+
+Difference is answer 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
